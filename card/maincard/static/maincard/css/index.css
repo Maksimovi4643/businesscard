@@ -1,0 +1,375 @@
+.pd{
+position: absolute;
+width: 1132px;
+height: 98px;
+left: 92px;
+top: 40px;
+
+font-family:League Gothic;
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 216px;
+letter-spacing: 0.035em;
+
+color: #54B2DB;
+
+
+}
+
+body{
+	background-color:black;
+
+}
+
+.name{
+position: absolute;
+width: 817px;
+height: 101px;
+left: 892px;
+top: 132px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 83px;
+line-height: 101px;
+
+color: #FFFFFF;
+
+
+}
+
+.mainphoto{
+position: absolute;
+width: 467px;
+height: 490px;
+left: 92px;
+top: 340px;
+z-index:9999;
+
+background: url("/static/maincard/img/антон.jpeg");
+border-radius: 12px;
+
+
+}
+.backimage{
+position: absolute;
+width: 467px;
+height: 490px;
+left: 150px;
+top: 413px;
+
+background: #54B2DB;
+border-radius: 12px;
+
+}
+
+.ms{
+position: absolute;
+width: 274px;
+height: 61px;
+left: 600px;
+top: 601px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+color: #54B2DB;
+
+transform: rotate(-90deg);
+
+}
+.skills {
+	/* Component 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 993px;
+height: 512px;
+left: 844px;
+top: 294px;
+
+}
+
+
+
+.p{
+
+/* Python 3 */
+
+width: 993px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Python 3 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: League Gothic;
+font-style: normal;
+font-weight: 400;
+font-size: 140px;
+line-height: 198px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+
+
+
+
+}
+
+.d{
+	/* Django framework */
+
+width: 993px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Django framework */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: League Gothic;
+font-style: normal;
+font-weight: 400;
+font-size: 140px;
+line-height: 548px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+}
+
+.drf{
+	/* DRF */
+
+width: 273px;
+height: 156px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* DRF */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: League Gothic;
+font-style: normal;
+font-weight: 400;
+font-size: 140px;
+line-height: 898px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+
+
+}
+
+.ss {
+/* Component 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 41px;
+
+position: absolute;
+width: 934px;
+height: 86px;
+left: 844px;
+top: 829px;
+}
+
+.h{
+/* HTML/CSS */
+
+width: 234px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HTML/CSS */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 75px;
+line-height: 90px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+}
+
+.g{
+/* GIT */
+
+width: 77px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* GIT */
+
+position: absolute;
+left: 29%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 75px;
+line-height: 90px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+}
+
+.gh{
+/* GITHUB */
+
+width: 164px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* GITHUB */
+
+position: absolute;
+left: 40%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 75px;
+line-height: 90px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+}
+
+.f{
+/* FIGMA */
+
+width: 137px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* FIGMA */
+
+position: absolute;
+left: 61%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 75px;
+line-height: 90px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+}
+
+.m{
+/* FIGMA */
+
+width: 158px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* FIGMA */
+
+position: absolute;
+left: 80%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 75px;
+line-height: 90px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+}
